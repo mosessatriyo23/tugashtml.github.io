@@ -1,0 +1,55 @@
+.header{
+    grid-column: 1/-1;
+    clear: both;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.box-to-box{
+    max-width: 900px;
+    margin: 0 20px;
+    display: grid;
+    grid-gap: 10px;
+    color: black;
+}
+
+.div{
+    display: block;
+}
+
+.figura{
+    margin: 0;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 100%;
+    float: left;
+    width: 20%;
+    background-color: aqua;
+}
+
+.img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.div{
+    display: block;
+}
+
+.info{
+    width: auto;
+    margin: 0;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 100%;
+    float: right;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.footer{
+    grid-column: 1/-1;
+    clear: both;
+    background-color: burlywood;
+    text-align: center;
+}

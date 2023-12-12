@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="eng">
+<link rel="stylesheet" href="style.css">
+<html>
+    <head>
+        <title>@mosessgp - 71231016 - Personal Web Page</title>
+    </head>
+
+    <body>
+        <div class="box-to-box">
+        <header class="header">Welcome To MY Webpage</header>
+        <div class="figura">
+            <img src="PAS FOTO BG MERAH 4x6 (1).jpg" width="300px" height="300px" alt="pasfoto">
+        </div>
+        
+    </br>
+    <div class="info">
+        <h3>About Me</h3>
+        <h4>Moses Satriyo Gentur Pinandhito</h4>
+        <ul><li>@mosessgp</li></ul>
+        <ul><li>Sleman, Yogyakarta, Indonesia</li></ul>
+        <ul><li>Duta Wacana Christian University</li></ul>
+        <h4>SkillSet</h4>
+        <ul>1. HTML</ul>
+        <ul>2. CSS</ul>
+        <ul>3. JavaScript</ul>
+        <ul>4. C</ul>
+        <ul>5. Phyton</ul>
+    </div>
+
+    </br>
+    <button id="tombolGantiWarna">Ganti warna BG bro </button>
+    <div class="footer">
+    <h1>Thanks for visiting my Web</h1>
+    </div>
+
+    <script>
+        const bodyElement = document.body;
+        let body = document.querySelector('body');
+
+        function gantiWarnaRandom() {
+            const warnaList = ['red', 'green', 'blue', 'white']
+            const randomIndex = Math.floor(Math.random() * warnaList.length);
+            const warnaRandom = warnaList[randomIndex];
+            bodyElement.style.backgroundColor = warnaRandom;
+        }
+
+        const tombolGantiWarna = document.getElementById('tombolGantiWarna')
+        tombolGantiWarna.addEventListener('click', gantiWarnaRandom);
+    </script>
+        </div>
+    </body>
+</html>
